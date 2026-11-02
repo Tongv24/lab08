@@ -6,3 +6,4 @@ int divide(int a, int b, int *ok) {
     *ok = (b != 0);
     return *ok ? a / b : 0;
 }
+// 测试Git三区流动
