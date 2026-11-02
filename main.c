@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "calc.h"
+#include "mod.h"
 int main(void) {
     int a = 12, b = 4;
     int ok;
@@ -10,5 +11,6 @@ int main(void) {
     if (ok) {
         printf("%d / %d = %d\n", a, b, q);
     }
+    printf("%d %% %d = %d\n", a, b, mod(a, b));
     return 0;
 }

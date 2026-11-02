@@ -1,7 +1,7 @@
 CC      = gcc
 CFLAGS  = -g -Wall -Wextra
 TARGET  = app
-OBJS    = calc.o main.o
+OBJS    = calc.o main.o mod.o
 
 $(TARGET): $(OBJS)
 	$(CC) $^ -o $@
